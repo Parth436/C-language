@@ -1,4 +1,132 @@
 Keywords 
-Indentifiers
-Literals(Constants)
-Operators
+-----------------------------------------------------------------------------
+# Indentifiers:-Name of variable, function, pointer or a structure 
+# Rules to define Indentifiers :
+
+1.Should not be a Keyword
+2.Should not contain space 
+3.It should contain A to Z or a to z or 0 to 9 04 underscore(_)
+4.It should npt start with a digit
+
+--------------------------------------------------------------------------
+# Literals(Constants) : values does not change once created
+-----------------------------------------------------------------------------
+Operators: Symbol which denotes any operation 
+1. Types of operators: Unary, Binary, and Ternary
+A.Arithmetic operators: +, -, *, /, %, ++, --
+B.Logical operators: &&, ||, !
+C.Relatoional operators: ==, !=, >, <, >=, <=
+D.Bitwise operators: &, |, ^, <<, >>
+E.Assignment operators: =, +=, -=, *=, /=, %=,............all binary operators
+F.Conditional operators: condition ? expression 1 : Expression 2
+G.Termination operators
+H.Special operators: 
+* : dereference,
+& : address 
+-> : member selection via pointer
+. : member selection via variable 
+sizeof : returns size of input bytes 
+(type) : type casting
+
+2.Operator Precedence :
+parantheses > increment/decrement > multi/div/modulo > +/- > <</>> > </<=/>/>= > ==/!= > &/^/|/&& /|| > ternary conditional > Assignment > ,
+
+-------------------------------------------------------------------------------
+# Floor() : It returns nearest smaller integer of input  Floor(6.1)=6, Floor(6.9)=6 Floor(-3.3)=-4
+# Ceil() : It returns nearest greater integer of input
+-----------------------------------------------------------
+# Data types:
+1. Basic Data Types : int, char, float, double
+2. Derived Data Types : array, pointer, structure, union
+3. Enumeration Data Types : enum
+4. Void Data Type : void
+-----------------------------|
+  TYPES    |     MODIFIERS   | 
+-----------|-----------------|
+int        |       short     | int = 2 bytes
+-----------|-----------------| char = 1 bytes
+char       |       long      | float = 4 bytes
+-----------|-----------------| double = 8 bytes
+float      |       unsigned  | long double 10 bytes
+-----------|-----------------|
+double     |       signed    |
+-----------|-----------------|
+void       |                 |
+------------------------------
+--------------------------------------------------------------------
+Types and access specifiers:
+
+# %d or %i = A decimal interger or signed integer
+# %c = signed character
+# %f = signed float
+%e = floating point number
+# %s = string or sequence of character
+# %lf = double
+# %Lf = Long double
+%0 = Octal integer
+# %u = short unsigned integer
+# %ld = Long decimal integer
+# %x = Hexadecimal integer
+%p = print memory address in the hexadecimal form
+------------------------------------------------------------------
+# Variable : Its an identifier that can store one value of given type
+Declaration : datatype variablename ; example int x ; or datatype var1, var2,......;
+initialization : x = 5;
+
+-------------------------------------------------------------------------
+# Output Function:
+printf()
+printing statement : printf("Hello there!");
+printing value : printf("specifier",expression or variable);
+    int x = 5; printf("%d",x);
+    int a=5,b=8; printf("%d%d",a,b); space can be added between the specifiers for getting space in the Output
+ for printing 5 spaces in between the outputs we can tab but it is represented as '\t'
+for printing on next line \n which is charater representation of enter on keyboard
+printf("value a is = %d and value of b is = %d",a,b);
+printf("%d",a*b);
+
+Variants of printf():
+->printf
+->fprintf
+->sprintf
+->printf_s
+->fprintf_s
+->sprintf_s
+->snprintf_s
+---------------------------------------------------------------------------
+# Input Function: takes input value from keyboard
+scanf():
+int num;
+scanf("%d",&num);
+int num1,num2;
+scaf("%d%d",&num1,&num2);
+------------------------------------------------------------------------
+# header file 
+stdio.h : standard input ouput which is a header file that includes definitions of printf() and scanf()
+#include<stdio.h>
+math.h,string.h
+---------------------------------------------------------------------
+# Structure of Program in C-language:
+#include<stdio.h>
+//macros or preprocessors
+//functions
+//structures
+//global variables
+Void main(){                     int main(){
+                                    
+    //local variables       or      return 0;
+} 
+                                }                                                                        
+// main() is a library function in C-language which must be therr in program if you want to run that program because c program's execution starts from the main() function
+
+ 
+
+
+
+
+
+
+
+
+
+
