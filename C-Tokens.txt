@@ -119,8 +119,10 @@ Void main(){                     int main(){
                                 }                                                                        
 // main() is a library function in C-language which must be therr in program if you want to run that program because c program's execution starts from the main() function
 
- 
-
+//sizeof function returns size of input in bytes
+//ex:-  sizeof(int)= 2;
+//int x; char y; float z;
+//sizeof(x)=2;sizeof(y)=1;sizeof(z)=4
 
 
 
