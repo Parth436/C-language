@@ -38,21 +38,25 @@ void main(){
 
 
     //switch case
-    int cgpa;
-    scanf("%d",&cgpa);
-    switch (cgpa)
-    {
-    case 10:
-        printf("A+");
-        break;
-    case 9:
-        printf("A");
-        break;
+    // int cgpa;
+    // scanf("%d",&cgpa);
+    // switch (cgpa)
+    // {
+    // case 10:
+    //     printf("A+");
+    //     break;
+    // case 9:
+    //     printf("A");
+    //     break;
     
-    default:
-        printf("Invalid cgpa");
-        break;
-    }
+    // default:
+    //     printf("Invalid cgpa");
+    //     break;
+    // }
+    //if all cases are not having break statement then the executable statement and all the statements below it including default statement will run
+    //------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    //
 }
 
 
